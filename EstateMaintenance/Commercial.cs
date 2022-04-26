@@ -7,7 +7,7 @@ using static EstateMaintenance.Enums;
 
 namespace EstateMaintenance
 {
-    internal class Commercial : IProperty
+    public class Commercial : IProperty
     {
         public Guid Id { get; set; }
         public string Address { get; set; }
