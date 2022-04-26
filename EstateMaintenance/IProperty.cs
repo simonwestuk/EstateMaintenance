@@ -8,6 +8,7 @@ namespace EstateMaintenance
 {
     internal interface IProperty
     {
+        public Guid Id { get; set; }
         public string Address { get; set; }
 
     }
