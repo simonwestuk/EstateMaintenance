@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace EstateMaintenance
+﻿namespace EstateMaintenance
 {
-    internal class Tenant : IPerson
+    public class Tenant : IPerson
     {
         public Guid Id { get; set; }
 

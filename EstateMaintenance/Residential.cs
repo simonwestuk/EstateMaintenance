@@ -13,13 +13,16 @@ namespace EstateMaintenance
         public string Address { get; set; }
         public ResidentialType Type { get; set; }
         public int NumberOfBedrooms { get; set; }
+        public Tenant CurrentTenant { get; set; }
 
-        public Residential(string address, ResidentialType type, int numberOfBedrooms)
+
+        public Residential(string address, ResidentialType type, int numberOfBedrooms, Tenant tenant)
         {
             Id = Guid.NewGuid();
             Address = address;
             Type = type;
             NumberOfBedrooms = numberOfBedrooms;
+            CurrentTenant = tenant;
         }
 
         public override string? ToString()
