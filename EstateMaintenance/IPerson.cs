@@ -6,15 +6,12 @@ using System.Threading.Tasks;
 
 namespace EstateMaintenance
 {
-    internal interface IIssue
+    internal interface IPerson
     {
         public Guid Id { get; set; }
 
-        public string Description { get; set; }
+        public string Fname { get; set; }
 
-        public DateTime Timestamp { get; set; }
-
-
-
+        public string Sname { get; set; }
     }
 }

@@ -25,5 +25,19 @@ namespace EstateMaintenance
            INDUSTRIAL_UNIT,
            RETAIL
         }
+
+        public enum IssueSeverity
+        {
+            HIGH,
+            MEDIUM,
+            LOW
+        }
+
+        public enum StaffType
+        {
+            ADMIN,
+            MANAGER,
+            TEAM_MEMBER
+        }
     }
 }
