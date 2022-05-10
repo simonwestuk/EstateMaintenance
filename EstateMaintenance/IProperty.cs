@@ -11,6 +11,7 @@ namespace EstateMaintenance
         public Guid Id { get; set; }
         public string Address { get; set; }
         public Tenant CurrentTenant { get; set; }
+        public List<IIssue> Issues { get; set; }
 
     }
 }

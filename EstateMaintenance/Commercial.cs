@@ -16,6 +16,7 @@ namespace EstateMaintenance
         public double SizeInSqFoot { get; set; }
         public Tenant CurrentTenant { get; set; }
 
+        public List<IIssue> Issues { get; set; }
 
         public Commercial(string address, string businessName, CommericalType type, double sizeInSqFoot, Tenant tenant)
         {
@@ -25,6 +26,7 @@ namespace EstateMaintenance
             Type = type;
             SizeInSqFoot = sizeInSqFoot;
             CurrentTenant = tenant;
+            Issues = new List<IIssue>();
         }
 
         public override string? ToString()

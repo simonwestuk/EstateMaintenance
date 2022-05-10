@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EstateMaintenance.MinorIssue">
+    <Position X="1" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAQAAAAAgIAAEAEACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MinorIssue.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EstateMaintenance.MajorIssue">
+    <Position X="4.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAQAAAAAgIAAEAEACAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>MajorIssue.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EstateMaintenance.Residential">
+    <Position X="10.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAAgABAAAAEAAAAAAAAAAAAAAACAQAAAAAAAAA=</HashCode>
+      <FileName>Residential.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EstateMaintenance.Commercial">
+    <Position X="14" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAAAABAAEAEAAAAAAAAABAAAAACAQAAAAAAAAA=</HashCode>
+      <FileName>Commercial.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EstateMaintenance.TeamMember">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAQAAAAAAAAACAAACAQAAAAAAEAA=</HashCode>
+      <FileName>TeamMember.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EstateMaintenance.Tenant">
+    <Position X="9" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Tenant.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="EstateMaintenance.IProperty">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAAAABAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>IProperty.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EstateMaintenance.IIssue">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAQAAAAAgIAAAAEACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IIssue.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EstateMaintenance.IPerson">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>IPerson.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

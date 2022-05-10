@@ -14,8 +14,7 @@ namespace EstateMaintenance
         public ResidentialType Type { get; set; }
         public int NumberOfBedrooms { get; set; }
         public Tenant CurrentTenant { get; set; }
-
-
+        public List<IIssue> Issues { get; set; }
         public Residential(string address, ResidentialType type, int numberOfBedrooms, Tenant tenant)
         {
             Id = Guid.NewGuid();
@@ -23,6 +22,7 @@ namespace EstateMaintenance
             Type = type;
             NumberOfBedrooms = numberOfBedrooms;
             CurrentTenant = tenant;
+            Issues = new List<IIssue>();
         }
 
         public override string? ToString()
