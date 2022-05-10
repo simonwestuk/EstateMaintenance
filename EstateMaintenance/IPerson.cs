@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EstateMaintenance
 {
-    internal interface IPerson
+    public interface IPerson
     {
         public Guid Id { get; set; }
 
