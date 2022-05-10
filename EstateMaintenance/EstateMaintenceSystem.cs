@@ -12,13 +12,13 @@ namespace EstateMaintenance
 
         public List<IProperty> Properties { get; set; }
 
-        public List<IPerson> Person { get; set; }
+        public List<IPerson> Persons { get; set; }
 
         public EstateMaintenceSystem(string name)
         {
             Name = name;
             Properties = new List<IProperty>();
-            Person = new List<IPerson>();
+            Persons = new List<IPerson>();
         }
     }
 }
